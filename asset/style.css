@@ -103,3 +103,62 @@
     color:#f12020 ;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    div#forma {
+        width: 75%;
+        padding: 10px;
+        position: relative;
+        top: 47px;
+    }
+
+    .choice_number_user {
+        width: 90%;
+        padding: 10px;
+    }
+
+    input.lotto_numbers_user+label {
+        padding: 8px;
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 10px 40px;
+        font-size: 1em;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+
+    .result {
+        font-size: 1em;
+        position: relative;
+        top: 47px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 60px;
+    }
+
+    .title {
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 8px 30px;
+        font-size: 0.9em;
+    }
+
+    input.lotto_numbers_user+label {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+
+    .result {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
