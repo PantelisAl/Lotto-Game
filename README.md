@@ -28,3 +28,7 @@ A simple Lotto game where users select 6 numbers and check if they match the ran
 ---
 ✨ *Enjoy playing and good luck!* 🍀
 
+
+
+https://github.com/user-attachments/assets/5bf7abe6-6fa0-4be2-87d8-57f4a182e995
+
