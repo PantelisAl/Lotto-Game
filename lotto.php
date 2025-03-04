@@ -37,7 +37,6 @@
              </div>
             </form>
         </div>
-
         <?php
             if(!empty($_POST['lotto_numbers_user']) && is_array($_POST['lotto_numbers_user'])){
                $selected_numbers = $_POST['lotto_numbers_user'];
@@ -54,9 +53,7 @@
                                 $i++;
                             } 
                         }
-
                         sort($random_array);
-                        $rand_numbers_new = " ";
                         echo "<br><p class='result'><b>The lucky numbers are:</b><br>".implode("-",$random_array)."</p><br><br>";
                      
                         $winning_array = [];
@@ -65,20 +62,16 @@
                                  array_push($winning_array,$selected_numbers[$i]);  
                            }
                         }
-            
                        if(count($winning_array) == 0){
                           echo "<p class='result error' style='color:red;'>Sorry, try again!</p>";
                        }else{
                           echo "<p class='result'><b>Numbers you guessed:</b><br>".implode("-",$winning_array)."</p>";
-                        
                        }
-
                        echo "<br><br><a href='lotto.php'><button class='button'>Reset</button></a>";             
                 }
                 echo "</div>";
             }
         ?>
     </div>
-
 </body>
 </html>
